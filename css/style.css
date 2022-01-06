@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #fff;
+    overflow-x: hidden;
+}
+.hero{
+    width: 100%;
+    height: 620px;
+    background: rgba(231, 29, 54, 0.1);
+}
+.hero .header{
+    padding: 20px 5%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+.hero .header ul{
+    margin-left: 70px;
+}
+.hero .header li a{
+    text-decoration: none;
+    /* font-weight: bold; */
+    color: #000;
+    padding-left: 35px;
+}
+.hero .header li{
+    list-style: none;
+    display: inline;
+}
+.hero .header img{
+    /* filter: invert(); */
+}
+.hero .header .sign-in{
+    position: absolute;
+    left: 86%;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background: rgba(231, 29, 54, 0.9);
+    color: #fff;
+}
+.hero .cricle1{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    bottom: 16%;
+    left: 1.5%;
+    background: rgba(231, 29, 54, 0.9);
+    clip-path: circle();
+}
+.hero .circle2{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    bottom: 7%;
+    left: 40%;
+    background: url("../images/mia.jpg");
+    background-size: cover;
+    clip-path: circle();
+}
+.hero .circle3{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    bottom: 8;
+    right: -20%;
+    background: rgba(231, 29, 54, 0.9);
+    clip-path: circle();
+}
+.hero .content-container{
+    position: absolute;
+    width: 50%;
+    top: 17%;
+    left: 5%;
+}
+.hero .content-container .up{
+    background: #fff;
+    width: 170px;
+    padding: 6px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 17px;
+    color: rgba(231, 29, 54, 0.9);
+}
+.hero .content-container h1{
+    padding-top: 10px;
+    font-size: 50px;
+}
+.hero .content-container p{
+    padding-top: 10px;
+    color: rgba(37, 34, 34, 0.8);
+}
+.hero .form-container{
+    width: 40%;
+    background: #fff;
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    padding: 25px;
+    border-radius: 20px;
+}
+.hero .form-container select{
+    padding: 10px;
+    width: 37%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.hero .form-container button{
+    background: rgba(231, 29, 54, 0.9);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 23%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
