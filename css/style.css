@@ -44,6 +44,7 @@ body{
     border-radius: 20px;
     background: rgba(231, 29, 54, 0.9);
     color: #fff;
+    cursor: pointer;
 }
 .hero .cricle1{
     position: absolute;
@@ -113,6 +114,7 @@ body{
     border-radius: 10px;
     outline: none;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    cursor: pointer;
 }
 .hero .form-container button{
     color: #fff;
@@ -122,4 +124,5 @@ body{
     padding: 10px;
     width: 23%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    cursor: pointer;
 }
